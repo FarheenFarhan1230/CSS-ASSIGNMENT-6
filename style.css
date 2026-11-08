@@ -1,0 +1,451 @@
+.head{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.head h1{
+    padding-left: 20px;
+    font-size:30px ;
+}
+.head h1 span{
+    color: aqua;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+.links a:hover{
+    color: aqua;
+}
+.button{
+    border-color: black;
+    color: white;
+    padding-right: 20px;
+}
+.button button{
+    background-color: aqua;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    overflow: auto;
+}
+/* Container1 */
+.container1{
+    width: 100%;
+    background-color: rgba(247, 245, 245, 0.253);
+    margin: 0 auto;
+    height: 90vh;
+}
+.home1{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+.home1 h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.home1 h3 span{
+    background-color: aqua;
+}
+.buttons{
+    margin-left: 50px;
+}
+.buttons .btn1{
+background-color: white;
+color: black;
+border:1px solid black;
+}
+.buttons .btn2{
+    background-color: aqua;
+    color: black;
+    border:1px solid black;
+}
+.home2{
+    float: right;
+    margin-top: -200px;
+    padding-right: 100px;
+}
+.images{
+   margin-top: 180px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+/* Container2 */
+.container2{
+    width: 100%;
+    background-color: rgba(247, 245, 245, 0.253);
+    margin: 0 auto;
+    height: 90vh;
+}
+.home4{
+    width: 40%;
+    float: right;
+    margin-top: -350px;
+    padding-right: 100px;
+}
+.home4 h4{
+    font-size: 50px;
+    font-weight: 500;
+    z-index: 1;
+}
+.home4 h6{
+    font-size: 20px;
+}
+.home4 h6:hover{
+    background-color: aqua;
+}
+/* Container3 */
+.container3{
+    width: 100%;
+    background-color: grey;
+    margin: 0 auto;
+    height: 60vh;
+}
+.container3 h2{
+    font-size: 30px;
+    font-weight: 600;
+   text-align: center;
+   padding-top: 30px;
+}
+.container3 span{
+    background-color: aqua;
+}
+.container3 p{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+.cards .card{
+    height: 120px;
+    width: 130px;
+    background-color:white;
+}
+.cards i{
+    padding-top: 10px;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.cards h5{
+    font-size: 20px;
+    text-align: center;
+}
+.cards p{
+    font-size: 16px;
+    text-align: center;
+}
+/* Container4 */
+.container4{
+    width: 100%;
+    background-color: rgb(252, 248, 248);
+    margin: 0 auto;
+    height: 60vh;
+}
+.container4 h6{
+    padding-top: 20px;
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+}
+.container4 h5{
+    font-size: 30px;
+font-weight: 700;
+text-align: center;
+}
+.container4 h6 span, h5 span{
+    background-color: aqua;
+}
+.cards2{
+     display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+.cards2 .card{
+    height: 150px;
+    width: 250px;
+    background-color:grey;
+}
+.cards2 h2{
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.cards2 h6{
+    font-size: 20px;
+    text-align: start;
+}
+.cards2 p{
+    font-size: 12px;
+    padding-left: 2px;
+}
+.para h3{
+    padding-top: 10px;
+    text-align: center;
+}
+.para p{
+    text-align: center;
+}
+/* Container5 */
+.container5{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    height: 80vh;
+}
+.container5 h4{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.container5 p{
+     text-align: center;
+    font-size: 20px;
+}
+.container5 button{
+  margin-left: 510px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+.container5 img{
+    padding-left: 200px;
+}
+.cardss{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 140px;
+    gap: 20px;
+}
+.cardss img{
+   padding-left: 10px;
+    padding-top: 25px;
+}
+/* Container6 */
+.container6{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.089);
+    color: white;
+    margin: 0 auto;
+    height: 60vh;
+}
+.home5{
+    width: 40%;
+}
+.home5 h5{
+    color: rgb(25, 219, 219);
+    font-size: 16px;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.home5 h3{
+     color: black;
+     font-size: 30px;
+     font-weight: 800;
+     padding-left: 100px;
+}
+.home5 p{
+     color: black;
+    font-size: 13px;
+    padding-left: 100px;
+}
+.home5 h6{
+    color: black;
+    font-size: 13px;
+    padding-left: 100px;
+}
+.home6 img{
+    float: right;
+    margin-top: -220px;
+    padding-right: 30px;
+}
+/* Container7 */
+.container7{
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    height: 80vh;
+}
+.container7 h6{
+    text-align: center;
+    color: rgb(16, 235, 235);
+    font-size: 15px;
+}
+.container7 h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.container7 p{
+    text-align: center;
+    font-size: 16px;
+}
+.container7 .btns{
+   margin-left: 110px;
+}
+.container7 .btns button{
+    border: 1px solid black;
+}
+.home7 img{
+    margin-left: 210px;
+    padding-top: 30px;
+}
+/* Container8 */
+.container8{
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    height: 80vh;
+}
+.container8 h6{
+    text-align: center;
+    color: rgb(16, 235, 235);
+    font-size: 15px;
+}
+.container8 h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.paragraph {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.home8 img{
+    margin-left: 240px;
+    padding-top: 30px;
+}
+/* Container9 */
+.container9{
+    width: 100%;
+    background-color:grey;
+    margin: 0 auto;
+    height: 50vh;
+}
+.home9{
+    width: 45%;
+    padding-left: 150px;
+    padding-top: 70px;
+}
+.home9 h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home9 p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.container9 .buttons{
+    margin-left: 150px;
+}
+.home9 .buttons .btn1{
+background-color: white;
+color: black;
+border:1px solid black;
+}
+.home9 .buttons .btn2{
+    background-color: aqua;
+    color: black;
+    border:1px solid black;
+}
+.container9 .imgs{
+    float: right;
+    margin-top: -180px;
+    padding-right: 100px;
+}
+.container9 .imgs img{
+padding-left: 20px;
+}
+/* Container10 */
+.container10{
+    width: 100%;
+    background-color:white;
+    margin: 0 auto;
+    height: 70vh;
+}
+.container10 h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.container10 .cardss1{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    padding-top: 20px;
+    justify-content: center;
+    gap: 15px 30px;
+    margin: 0 auto;
+}
+.container10 .cardss1 .card{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    text-align: left;
+}
+.cardss1 .card i{
+    background-color:black;
+    color: white;
+margin-top: 5px;
+margin-left: 5px;
+font-size: 20px;
+}
+.cardss1 .card h6{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.cardss1 .card p{
+    font-size: 14px;
+    padding-left: 5px;
+}
+/* Container11 */
+.container11{
+    width: 100%;
+    background-color:black;
+    margin: 0 auto;
+    height: 50vh;
+}
+.text{
+    width: 50%;
+}
+.text h3{
+    padding-top: 40px;
+    padding-left: 100px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.text p{
+    padding-left: 100px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+}
+.text h6{
+    padding-top: 40px;
+    padding-left: 100px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.image img{
+    float: right;
+    margin-top: -200px;
+    padding-right: 100px;
+}
